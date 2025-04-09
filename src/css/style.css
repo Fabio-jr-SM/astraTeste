@@ -1,0 +1,231 @@
+/* Sobre Nos */
+.hero-container {
+    background-color: #272727;
+    border-radius: 20px;
+    padding: 60px 60px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 60px auto;
+    overflow: hidden;
+    position: relative;
+}
+.hero-text h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+.hero-text p {
+    color: #bbb;
+    font-size: 0.95rem;
+    max-width: 500px;
+}
+.hero-image {
+    position: relative;
+    margin-right: -120px;
+    margin-bottom: 30px;
+    z-index: 0;
+}
+.hero-image img {
+    width: 650px;
+    max-width: 100%;
+    transform: translateY(80px);
+}
+/* Fim Sobre Nos */
+
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    background: rgb(0, 0, 0);
+    filter: brightness(0.5);
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* Navbar */
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    transition: color 0.3s ease !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: #7BC251 !important;
+}
+
+.header-dark {
+    background-color: #000000f1 !important;
+    transition: background-color 0.5s ease, opacity 0.5s ease;
+    opacity: 0.9;
+}
+
+header {
+    transition: background-color 0.5s ease, opacity 0.5s ease;
+    opacity: 1;
+}
+
+/* Fim - Navbar */
+
+
+/* Elemento efeito carrocel */
+.fundo-carrocel {
+    border-radius: 1.25rem;
+    background-color: transparent;
+    border: none;
+}
+
+.loader {
+    color: rgb(145, 145, 145);
+    font-weight: 500;
+    font-size: 25px;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 8px;
+}
+
+.palavras {
+    overflow: hidden;
+    position: relative;
+}
+
+.sufixo {
+    display: block;
+    height: 100%;
+    padding-left: 6px;
+    color: #7BC251;
+    animation: spin_4991 4s infinite;
+}
+
+@keyframes spin_4991 {
+    10% {
+        -webkit-transform: translateY(-102%);
+        transform: translateY(-102%);
+    }
+
+    25% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
+
+    35% {
+        -webkit-transform: translateY(-202%);
+        transform: translateY(-202%);
+    }
+
+    50% {
+        -webkit-transform: translateY(-200%);
+        transform: translateY(-200%);
+    }
+
+    60% {
+        -webkit-transform: translateY(-302%);
+        transform: translateY(-302%);
+    }
+
+    75% {
+        -webkit-transform: translateY(-300%);
+        transform: translateY(-300%);
+    }
+
+    85% {
+        -webkit-transform: translateY(-402%);
+        transform: translateY(-402%);
+    }
+
+    100% {
+        -webkit-transform: translateY(-400%);
+        transform: translateY(-400%);
+    }
+}
+
+/* Fim - Elemento efeito carrocel */
+
+
+/* Backgrounds */
+.bg-cinza {
+    background-color: #e0e0e0;
+}
+
+.bg-verde {
+    background-color: #7BC251;
+}
+
+/* Fim Backgrounds */
+
+
+/* Cores de texto */
+.text-azul {
+    color: #469b8f;
+}
+
+.text-verde {
+    color: #7BC251;
+}
+
+/* Fim Cores de texto */
+
+
+/* Botoes */
+.btn-verde {
+    background-color: #7BC251 !important;
+    border-color: #7BC251 !important;
+    color: white !important;
+}
+
+.btn-verde:hover {
+    background-color: #6ca540 !important;
+    border-color: #6ca540 !important;
+}
+
+/* From Uiverse.io by cssbuttons-io */
+.btn-saiba-mais {
+    padding: 0.7em 2em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-saiba-mais:hover {
+    background-color: #7BC251;
+    box-shadow: 0px 15px 20px #6ca54050;
+    color: #fff;
+    text-decoration: none;
+    transform: translateY(-7px);
+}
+
+.btn-saiba-mais:active {
+    transform: translateY(-1px);
+}
+
+/* Fim Botoes */
